@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Hey, a blog is here"
+date:   2016-01-11 10:21:25
+categories: jekyll update
+---
+
+This is the first post for the new blog. Hopefully going to spend a few hours writing tomorrow.
