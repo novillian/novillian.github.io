@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "About Monitoring"
+date:   2016-01-12 09:33:00
+categories: monitoring core
+---
+
+# Defining terms
+
+Something I've discovered as I dive deep into various technology is that people will use different terms to mean the same thing. These same people tend to be frustrated when you don't use the same terms as them. In an effort to be understandable to everyone from the greenest novice to the most weathered expert, I'm going to define terms that I will be using in future monitoring posts.
+
+* Basic:
+  * State (n)
+  
+  The health of the thing being monitored. typical states: Good, Bad, Healthy, Critical, Warning, Unknown. Some monitoring systems implement more/less.
+  
+  * Check (v)
+  
+  An action that returns the current state of the thing being monitored
+  
+  * Metric (n)
+  
+  A set of data collected, typically for post-analysis.
+  
+  * Alert (v)
+  
+  An action to take when an object is in a pre-defined state. While Alerts traditionally/typically are pages to on-call personelle, a cunning admin can use an alert to trigger an automated response before paging.
+  
+  * Discovery (v)
+  
+  The action of configuring the monitors for an object based off what that object is.
+  
+* Advanced
